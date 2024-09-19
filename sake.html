@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    
+    .row {
+      display: -ms-flexbox; 
+      display: flex;
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+   
+    .column {
+      -ms-flex: 25%; 
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+   
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+    }
+    </style>
+    </head>
+    <body>
+    
+      <h1 style="font-family:Italic; font-size: 40px;">Sake Gallery</h1>
+      <div class="topright">
+        <img src="log.png" width="200" height="170">
+      </div>
+      <hr>
+    
+  
+    <div class="row"> 
+      <div class="column">
+        <img src="1.jpg" style="width:100%">
+        <img src="1ac0e0199da4a362aca8a510a06a1808.jpg" style="width:100%">
+        <img src="1cb8fac8d07c5d211becf232e23042ac.jpg" style="width:100%">
+        <img src="4ba91a510e1f0478c4b265eff1467c38.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="9a9fff31a34be223324b955bac607e6d.jpg" style="width:100%">
+        <img src="9c502606f54263056890e9c40bd03058.jpg" style="width:100%">
+        <img src="abccb786d004eec9e048b5b58264efa2.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="sake1.jpg" style="width:100%">
+        <img src="sake2.jpg" style="width:100%">
+        <img src="sake3.jpg" style="width:100%">
+        <img src="sake4.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="sake5.jpg" style="width:100%">
+        <img src="sake6.jpg" style="width:100%">
+        <img src="sake6.jpg" style="width:100%">
+        <img src="def226e16e40958df3a50d5b46becc99.jpg" style="width:100%">
+      </div>
+  
+</body>
+</html>
